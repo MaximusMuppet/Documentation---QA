@@ -1,0 +1,141 @@
+
+
+???? git remote add origin git@github.com:MaximusMuppet/Documentation---QA.git
+
+??? git push -u origin master
+
+
+
+git remote set-url origin https://github.com/MaximusMuppet/Documentation---QA.git
+git push -u origin master
+
+
+
+
+$ git remote set-url origin https://github.com/MaximusMuppet/Documentation---QA.git
+
+Administrator@STUDENT02 MINGW64 / (master)
+$ git push -u origin master
+Logon failed, use ctrl+c to cancel basic credential prompt.
+Username for 'https://github.com/': MaximusMuppet
+Counting objects: 3, done.
+Writing objects: 100% (3/3), 240 bytes | 0 bytes/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/MaximusMuppet/Documentation---QA.git
+ * [new branch]      master -> master
+Branch master set up to track remote branch master from origin.
+
+
+
+=====================
+
+Administrator@STUDENT02 MINGW64 /
+$ echo "# Documentation---QA" >> README.md
+
+Administrator@STUDENT02 MINGW64 /
+$ git init
+Initialized empty Git repository in C:/Program Files/Git/.git/
+
+Administrator@STUDENT02 MINGW64 / (master)
+$ git add README.md
+warning: LF will be replaced by CRLF in README.md.
+The file will have its original line endings in your working directory.
+
+Administrator@STUDENT02 MINGW64 / (master)
+$ git commit -m "first commit"
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: empty ident name (for <(null)>) not allowed
+
+Administrator@STUDENT02 MINGW64 / (master)
+$  git config --global user.email "ssean.copley65@gmail.com"
+
+Administrator@STUDENT02 MINGW64 / (master)
+$  git config --global user.name "MaximusMuppet"
+
+Administrator@STUDENT02 MINGW64 / (master)
+$  git commit -m "first commit"
+[master (root-commit) fcfc2f9] first commit
+warning: LF will be replaced by CRLF in README.md.
+The file will have its original line endings in your working directory.
+ 1 file changed, 1 insertion(+)
+ create mode 100644 README.md
+
+Administrator@STUDENT02 MINGW64 / (master)
+$ git remote add origin git@github.com:MaximusMuppet/Documentation---QA.git
+
+Administrator@STUDENT02 MINGW64 / (master)
+$ git push -u origin master
+The authenticity of host 'github.com (192.30.252.130)' can't be established.
+AWS
+Sean1
+
+
+
+RSA key fingerprint is SHA256:nThbg6kXUpJWGl7E1IGOCspRomTxdCARLviKw6E5SY8.
+Are you sure you want to continue connecting (yes/no)? yes
+Warning: Permanently added 'github.com,192.30.252.130' (RSA) to the list of known hosts.
+Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+Administrator@STUDENT02 MINGW64 / (master)
+$
+
+Administrator@STUDENT02 MINGW64 / (master)
+$
+
+Administrator@STUDENT02 MINGW64 / (master)
+$
+
+Administrator@STUDENT02 MINGW64 / (master)
+$ https://github.com/MaximusMuppet/Documentation^C
+
+Administrator@STUDENT02 MINGW64 / (master)
+$
+
+Administrator@STUDENT02 MINGW64 / (master)
+$
+
+Administrator@STUDENT02 MINGW64 / (master)
+$
+
+Administrator@STUDENT02 MINGW64 / (master)
+$
+
+Administrator@STUDENT02 MINGW64 / (master)
+$ git remote set-url origin https://github.com/MaximusMuppet/Documentation---QA.git
+
+Administrator@STUDENT02 MINGW64 / (master)
+$ git push -u origin master
+Logon failed, use ctrl+c to cancel basic credential prompt.
+Username for 'https://github.com/': MaximusMuppet
+Counting objects: 3, done.
+Writing objects: 100% (3/3), 240 bytes | 0 bytes/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/MaximusMuppet/Documentation---QA.git
+ * [new branch]      master -> master
+Branch master set up to track remote branch master from origin.
+
+
+$ git clone https://github.com/MaximusMuppet/Documentation---QA
+Cloning into 'Documentation---QA'...
+remote: Counting objects: 3, done.
+remote: Total 3 (delta 0), reused 3 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), done.
+Checking connectivity... done.
+
+
+
+
