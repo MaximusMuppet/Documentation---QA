@@ -1,0 +1,37 @@
+
+
+
+EG_05
+Chose AMI
+Instances - Shows what you have
+Lanche Instance - To get setup screen
+Select AMI Linux
+T2.med
+Config instasnce - No change
+Add Storage - 
+Tag Instances - Gitlab
+Configure Security Group  -  Add Rule  -  80/tcp
+
+
+Putty
+SSH
+Auth - Enter Primary key path
+Home - Enter IP address
+Load - Putty screen opens, user = ec2-user
+
+sudo yum install curl openssh-server postfix cronie  
+sudo service postfix start
+sudo chkconfig postfix on  
+
+curl https://packages.gitlab.com/install/repositories/gitlab/gitlab-ce/script.rpm.sh | sudo bash  
+sudo yum install gitlab-ce 
+
+
+sudo gitlab-ctl reconfigure 
+
+
+
+Repository address
+http://ec2-52-208-29-154.eu-west-1.compute.amazonaws.com/root/muppet-1.git
+
+
